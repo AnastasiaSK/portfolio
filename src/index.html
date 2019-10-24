@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -46,43 +50,52 @@
         </div>
         <div class="projects">
           <h2 class="projects__title">Projects</h2>
-          <div class="projects__slider slider">
-            <div class="slider__item">
-              <div class="slider__item-description">
-                <h3 class="slider__title">theyalow</h3>
-                <div class="slider__info">
-                  <ul>
-                    <li>Pixel perfect</li>
-                    <li>Semantic html</li>
-                    <li>Vanilla css</li>
-                  </ul>
+          <div class="projects__slider">
+            <div class="projects__button projects__button_prev"></div>
+            <div class="projects__button projects__button_next"></div>
+            <div class="slider">
+              <div>
+                <div class="slider__item">
+                  <div class="slider__item-description">
+                    <h3 class="slider__title">theyalow</h3>
+                    <div class="slider__info">
+                      <ul>
+                        <li>Pixel perfect</li>
+                        <li>Semantic html</li>
+                        <li>Vanilla css</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="slider__item-image">
+                    <img src="/assets/images/theyalow.png" alt="theyalow" />
+                  </div>
                 </div>
               </div>
-              <div class="slider__item-image">
-                <img src="/assets/images/theyalow.png" alt="theyalow" />
-              </div>
-            </div>
-            <div class="slider__item">
-              <div class="slider__item-description">
-                <h3 class="slider__title">repair-design-project</h3>
-                <div class="slider__info">
-                  <ul>
-                    <li>Responsive</li>
-                    <li>Preprocessors (Sass)</li>
-                    <li>Naming convention (BEM)</li>
-                  </ul>
+              <div>
+                <div class="slider__item">
+                  <div class="slider__item-description">
+                    <h3 class="slider__title">repair-design-project</h3>
+                    <div class="slider__info">
+                      <ul>
+                        <li>Responsive</li>
+                        <li>Preprocessors (Sass)</li>
+                        <li>Naming convention (BEM)</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="slider__item-image">
+                    <img
+                      src="/assets/images/repair-design-project.png"
+                      alt="repair-design-project"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="slider__item-image">
-                <img
-                  src="/assets/images/repair-design-project.png"
-                  alt="repair-design-project"
-                />
               </div>
             </div>
           </div>
         </div>
       </main>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
   </body>
 </html>
